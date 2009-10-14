@@ -1,0 +1,30 @@
+w32context v0.1 (2009-10-14)
+
+What is it?
+
+w32context.exe is small utility to programatically trigger the Window Explorer
+shell context menu for any given file or folder. The popup menu is positioned
+accordingly to the mouse cursor so you can either invoke commands using the
+mouse directly or using the keyboard (shortcuts are supported).
+
+Why did you write this?
+
+The motivation behind this project was to be able to trigger the Explorer shell
+context menu from inside Emacs for a given file or while browsing the file
+system. You can easily access all the normal tools associated with a certain
+file from without having to leave the comform of Emacs.
+
+How do I use it?
+
+There is some elisp code included in the distrubtion which shows how one can
+intergrate this tool with Emacs to support right clicking in dired buffers as
+well as invoking the context menu from file buffers using the keyboard.
+
+License restrictions?
+
+This project is donated to the the public domain where applicable or under the
+BSD license where not.
+
+---
+Babar k. Zafar (babar.zafar@gmail.com)
+
